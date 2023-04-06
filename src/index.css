@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Mohave:wght@300;400;500;600;700&display=swap');
+
+/* @import url('https://fonts.googsleapis.com/css2?family=Bellefair&display=swap'); */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Mohave', sans-serif;
+  /* font-family: 'Bellefair', serif; */
+}
+
+.links {
+  background-color: transparent;
+}
+
+.link {
+  margin-bottom: 2.5rem;
+  padding: 0.5rem 0;
+}
+
+.active-link {
+  color: #fff;
+  border-bottom: 4px solid #fff;
+}
+
+.home {
+  background-image: url('./assets/home/background-home-mobile.jpg');
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.destination {
+  background-image: url('./assets/destination/background-destination-mobile.jpg');
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+@media (min-width: 768px) {
+  .links {
+    background-color: rgba(53, 50, 71, 0.3);
+    backdrop-filter: blur(1px);
+    padding: 1rem 3rem;
+  }
+  /* home */
+  .home {
+    background-image: url('./assets/home/background-home-tablet.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+  /* destination */
+  .destination {
+    background-image: url('./assets/destination/background-destination-tablet.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+}
+
+@media (min-width: 1024px) {
+  .links {
+    background-color: hsla(0, 0%, 100%, 0.233);
+    backdrop-filter: blur(6px);
+    padding: 1rem 5rem;
+  }
+  /* home */
+  .home {
+    background-image: url('./assets/home/background-home-desktop.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+  /* destination */
+  .destination {
+    background-image: url('./assets/destination/background-destination-desktop.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+}
