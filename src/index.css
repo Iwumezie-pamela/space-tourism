@@ -32,7 +32,7 @@ body {
 }
 
 .home {
-  background-image: url('./assets/home/background-home-mobile.jpg');
+  background-image: url('/home/background-home-mobile.jpg');
   height: 100vh;
   background-size: cover;
   background-position: center;
@@ -41,7 +41,7 @@ body {
 }
 
 .destination {
-  background-image: url('./assets/destination/background-destination-mobile.jpg');
+  background-image: url('/destination/background-destination-mobile.jpg');
   height: 100vh;
   background-size: cover;
   background-position: center;
@@ -57,7 +57,7 @@ body {
   }
   /* home */
   .home {
-    background-image: url('./assets/home/background-home-tablet.jpg');
+    background-image: url('/home/background-home-mobile.jpg');
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -66,7 +66,7 @@ body {
   }
   /* destination */
   .destination {
-    background-image: url('./assets/destination/background-destination-tablet.jpg');
+    background-image: url('/destination/background-destination-tablet.jpg');
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -83,7 +83,7 @@ body {
   }
   /* home */
   .home {
-    background-image: url('./assets/home/background-home-desktop.jpg');
+    background-image: url('/home/background-home-mobile.jpg');
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -92,7 +92,7 @@ body {
   }
   /* destination */
   .destination {
-    background-image: url('./assets/destination/background-destination-desktop.jpg');
+    background-image: url('/destination/background-destination-desktop.jpg');
     height: 100vh;
     background-size: cover;
     background-position: center;
