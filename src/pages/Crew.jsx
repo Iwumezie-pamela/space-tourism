@@ -32,8 +32,8 @@ const Crew = () => {
                 type='button'
                 key={index}
                 onClick={() => setValue(index)}
-                className={` mr-5 rounded-full bg-white h-4 w-4 my-6  cursor-pointer lg:mb-8 ${
-                  index === value && 'bg-gray-500'
+                className={` mr-5 rounded-full h-4 w-4 my-6  cursor-pointer lg:mb-8 ${
+                  index === value ? 'bg-white' : 'bg-gray-500'
                 }`}
               ></button>
             );
