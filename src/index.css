@@ -30,7 +30,7 @@ body {
   color: #fff;
   border-bottom: 4px solid #fff;
 }
-
+/* home */
 .home {
   background-image: url('/home/background-home-mobile.jpg');
   height: 100vh;
@@ -39,9 +39,19 @@ body {
   background-repeat: no-repeat;
   height: 100vh;
 }
-
+/* destination */
 .destination {
   background-image: url('/destination/background-destination-mobile.jpg');
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+/* crew */
+.crew {
+  background-image: url('/crew/background-crew-mobile.jpg');
   height: 100vh;
   background-size: cover;
   background-position: center;
@@ -73,6 +83,16 @@ body {
     background-repeat: no-repeat;
     height: 100vh;
   }
+
+  /* crew */
+  .crew {
+    background-image: url('/crew/background-crew-tablet.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -93,6 +113,16 @@ body {
   /* destination */
   .destination {
     background-image: url('/destination/background-destination-desktop.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+
+  /* crew */
+  .crew {
+    background-image: url('/crew/background-crew-desktop.jpg');
     height: 100vh;
     background-size: cover;
     background-position: center;

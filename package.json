@@ -9,9 +9,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "modules": "^0.4.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-icons": "^4.8.0"
+    "react-icons": "^4.8.0",
+    "react-responsive-carousel": "^3.2.23",
+    "react-touch-carousel": "^0.10.2",
+    "swiper": "^9.2.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.28",

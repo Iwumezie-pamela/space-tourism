@@ -11,10 +11,11 @@ const Destination = () => {
     <>
       <section className='destination text-center relative flex flex-col items-center justify-center mx-auto h-screen lg:grid lg:grid-cols-2 lg:place-items-center lg:text-left'>
         <article className=''>
-          <h1 className='text-gray-100 font-medium uppercase text-2xl mt-14   '>
+          <h1 className='text-gray-100 font-medium uppercase text-2xl mt-14  lg:mb-12  '>
             <span className='text-gray-500 mr-3'> 01 </span> pick your
             destination
           </h1>
+
           <img
             src={images.png}
             alt={name}
