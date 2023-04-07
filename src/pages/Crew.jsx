@@ -9,7 +9,7 @@ const Crew = () => {
 
   return (
     <section className='crew text-center relative flex flex-col items-center justify-center mx-auto  h-screen lg:grid lg:grid-cols-2 lg:place-items-center lg:text-left '>
-      <div className='crew-center mt-20 md:mt-12'>
+      <div className='crew-center mt-10 md:mt-12'>
         <h1 className='text-gray-300 font-medium uppercase mb-3 text-3xl mt-14  lg:mb-20'>
           <span className='text-gray-500 mr-3'> 02 </span> meet your crew
         </h1>
